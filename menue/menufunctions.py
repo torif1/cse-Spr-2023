@@ -1,3 +1,9 @@
+
+sandwichdict = {'chicken':5.25,'beef':6.25,'tofu':5.75}
+beveragedict = {'small':1,'medium':1.75,'large':2.25}
+friesdict    = {'small':1,'medium':1.5,'large':2}
+
+
 def get_Sandwich(totalcost,sandwich_lst):
     typesandwich = str(input('What type of sandwich?')).lower()
     if typesandwich == 'chicken' or 'beef' or 'tofu':
