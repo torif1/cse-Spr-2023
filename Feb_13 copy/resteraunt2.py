@@ -10,7 +10,19 @@ class Resteraunt:
 
     def open_resteraunt(self):
         print('This Resteraunt is Open')
-    #def 
+
+    # Defining a method to set number of guests served
+    def set_number_served(self,guests_served):
+        guests_served: int>0
+        if guests_served>0:
+            self.customersserved+=int(guests_served)
+        else:
+            print('Must update by a positive integer')
+    
+    #Defining method to incament guests served by input value
+    def incrament_number_served(self,incrament_value):
+        incrament_value: int>0
+        self.customersserved+=int(incrament_value)
 
 class User:
     def __init__(self,first_name,last_name):
