@@ -1,5 +1,4 @@
 import resteraunt
-from resteraunt import Resteraunt
 from resteraunt import *
 
 
