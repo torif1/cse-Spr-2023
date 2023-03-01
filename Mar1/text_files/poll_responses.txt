@@ -1,0 +1,6 @@
+Kile:I like the chalange
+tim:It's fun
+john:I don't
+exit:exit
+John:I just do
+Carson:idk man
