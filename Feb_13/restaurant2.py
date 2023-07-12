@@ -1,6 +1,6 @@
 """Module with class defenitions"""
 
-class Resteraunt:
+class Restaurant:
     def __init__(self, resteraunt_name, cuisine_type):
         self.name=resteraunt_name
         self.foodtype=cuisine_type
