@@ -1,14 +1,14 @@
-class Resteraunt:
-    def __init__(self, resteraunt_name, cuisine_type):
-        self.name=resteraunt_name
+class Restaurant:
+    def __init__(self, restaurant_name, cuisine_type):
+        self.name=restaurant_name
         self.foodtype=cuisine_type
         self.open='False'
     
-    def describe_resteraunt(self):
+    def describe_restaurant(self):
         print(f'foodtype={self.foodtype} and name={self.name}')
 
-    def open_resteraunt(self):
-        print('This Resteraunt is Open')
+    def open_restaurant(self):
+        print('This restaurant is Open')
 
 class User:
     def __init__(self,first_name,last_name):
