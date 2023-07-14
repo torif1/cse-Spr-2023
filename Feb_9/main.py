@@ -1,13 +1,13 @@
-import resteraunt
-from resteraunt import *
+import restaurant
+from restaurant import *
 
 
-resteraunt1=Resteraunt('Anthonies','Pizza')
-resteraunt2=Resteraunt('Chipolte','Mexican')
-resteraunt3=Resteraunt('Burger King', 'Burgers')
+restaurant1=Restaurant('Anthonies','Pizza')
+restaurant2=Restaurant('Chipolte','Mexican')
+restaurant3=Restaurant('Burger King', 'Burgers')
 
-for resteraunt in [resteraunt1,resteraunt2, resteraunt3]:
-    resteraunt.describe_resteraunt()
+for restaurant in [restaurant1,restaurant2, restaurant3]:
+    restaurant.describe_restaurant()
 
 user1=User('Harold',"Huccaby")
 user2=User('Jamie','Jones')
